@@ -20,7 +20,7 @@ master_df = pd.read_csv('data/covid-by-region-by-day.csv')
 # App layout
 app.layout = html.Div([
 
-    html.H1("Web Application Dashboards with Dash", 
+    html.H1("Application Dashboards with Dash", 
         style={'text-align': 'center'}),
     
     html.Br(),
@@ -200,4 +200,4 @@ def display_scatter(scatter_plot_value):
 
 # ------------------------------------------------------------------------------
 if __name__ == '__main__':
-    app.run_server(debug=True, port=6969)
+    app.run_server(debug=True, port=5000)
